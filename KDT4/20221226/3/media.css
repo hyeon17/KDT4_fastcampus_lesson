@@ -1,0 +1,15 @@
+.item{
+  width: 400px;
+  height: 100px;
+  background-color: orange;
+  border: 10px dashed;
+}
+/* max-width은 450이하라고 해석
+min-width는 450이상이라고 해석 */
+/* 4가로길이가 450이하일때 색을 로열블루로 나타냄 */
+@media screen and (max-width:450px){
+  .item{
+    background-color: royalblue;
+  }
+
+}
